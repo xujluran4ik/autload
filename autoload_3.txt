@@ -1,0 +1,228 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(0, -72.400001525879, 0),
+				["Bone"] = "right upperarm",
+				["UniqueID"] = "3854488465",
+				["ClassName"] = "bone",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(3, 0, 0),
+				["Bone"] = "left thigh",
+				["UniqueID"] = "4164726294",
+				["ClassName"] = "bone",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(0, -148.10000610352, 0),
+				["Bone"] = "left upperarm",
+				["UniqueID"] = "2862131877",
+				["ClassName"] = "bone",
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(-29.10000038147, 0, 0),
+				["Bone"] = "right thigh",
+				["UniqueID"] = "2608684974",
+				["ClassName"] = "bone",
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "3544649560",
+				["Event"] = "is_on_ground",
+			},
+		},
+		[6] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(-42.200000762939, 0, 0),
+				["Bone"] = "right forearm",
+				["UniqueID"] = "3514477661",
+				["ClassName"] = "bone",
+			},
+		},
+		[7] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Max"] = 360,
+						["ClassName"] = "proxy",
+						["UniqueID"] = "3712549987",
+						["InputMultiplier"] = 3,
+						["Axis"] = "z",
+						["Min"] = -360,
+						["Function"] = "none",
+						["VariableName"] = "Angles",
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(0, 0, -63),
+				["UniqueID"] = "4229351542",
+				["Bone"] = "pelvis",
+				["ClassName"] = "bone",
+				["EditorExpand"] = true,
+			},
+		},
+		[8] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "1891097492",
+						["Event"] = "weapon_class",
+						["Operator"] = "equal",
+						["Arguments"] = "m9k_damascus@@0",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(0, 38.400001525879, 0),
+				["Bone"] = "spine 4",
+				["UniqueID"] = "1866036945",
+				["ClassName"] = "bone",
+			},
+		},
+		[9] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(0, 38.400001525879, 0),
+				["Bone"] = "spine",
+				["UniqueID"] = "1362501372",
+				["ClassName"] = "bone",
+			},
+		},
+		[10] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(0, 38.400001525879, 0),
+				["Bone"] = "spine 2",
+				["UniqueID"] = "2185773208",
+				["ClassName"] = "bone",
+			},
+		},
+		[11] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "animation",
+				["UniqueID"] = "1738178240",
+				["SequenceName"] = "cidle_all",
+			},
+		},
+		[12] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(129.60000610352, 46.799999237061, 0),
+				["Bone"] = "left forearm",
+				["UniqueID"] = "4247511477",
+				["ClassName"] = "bone",
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "697552442",
+		["ClassName"] = "group",
+		["Name"] = "мой костюм",
+		["Description"] = "добавь частей ко мне!",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "proxy",
+								["UniqueID"] = "2643134293",
+								["Axis"] = "z",
+								["Function"] = "none",
+								["VariableName"] = "BaseTexturePosition",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "proxy",
+								["UniqueID"] = "4118071342",
+								["Axis"] = "x",
+								["Function"] = "none",
+								["VariableName"] = "BaseTexturePosition",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "proxy",
+								["UniqueID"] = "4200243917",
+								["Axis"] = "y",
+								["Function"] = "none",
+								["VariableName"] = "BaseTexturePosition",
+							},
+						},
+					},
+					["self"] = {
+						["EnvMap"] = "debug/env_cubemap_model",
+						["BaseTexturePosition"] = Vector(438.59811401367, 438.59811401367, 438.59811401367),
+						["UniqueID"] = "3199025282",
+						["ClassName"] = "material",
+						["BumpMap"] = "models/props_combine/stasisshield_sheet",
+						["BaseTexture"] = "models/props_combine/prtl_sky_sheet",
+						["EditorExpand"] = true,
+						["LightWarpTexture"] = "models/shadertest/shader1_dudv",
+					},
+				},
+			},
+			["self"] = {
+				["Model"] = "models/pac/jiggle/clothing/base_cape_2_gravity.mdl",
+				["ClassName"] = "model",
+				["UniqueID"] = "846160802",
+				["EditorExpand"] = true,
+				["Position"] = Vector(-3.8418579101563, 0.030517578125, 0.332763671875),
+				["Bone"] = "neck",
+				["Name"] = "base cape  gravity",
+				["Angles"] = Angle(-4.3542455387069e-005, -54.067668914795, -90.000022888184),
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "2549669208",
+		["ClassName"] = "group",
+		["Name"] = "мой костюм1",
+		["Description"] = "добавь частей ко мне!",
+	},
+},
